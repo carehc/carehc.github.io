@@ -7,8 +7,8 @@ body {
 sans-serif;
 }
 #header {
-  background-color: #1abc9c;
-  height: 150px;
+  background-color: #2f2f2f;
+  height: 200px;
   line-height: 150px;
 }
 #header a {
@@ -18,7 +18,7 @@ sans-serif;
   letter-spacing: 0.1em;
 }
 #header a:hover {
-  color: #222
+  color: #F6A623
 }
 #header-title {
   display: block;
@@ -61,7 +61,7 @@ sans-serif;
   letter-spacing: 0.1em;
 }
 a {
-  color: #1abc9c;
+  color: #999;
   text-decoration: none;
 }
 a:hover {
