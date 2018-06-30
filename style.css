@@ -60,6 +60,24 @@ sans-serif;
   text-transform: lowercase;
   letter-spacing: 0.1em;
 }
+#content-nav a {
+  color: black;
+  text-decoration: none;
+  text-transform: lowercase;
+  letter-spacing: 0.2em;
+}
+#content-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+#content-nav {
+  display: block;
+  float: left;
+  margin-top: 0;
+}
+#content-nav a:hover {
+  color: #F6A623
+}
 a {
   color: #999;
   text-decoration: none;
