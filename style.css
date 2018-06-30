@@ -8,8 +8,12 @@ sans-serif;
 }
 #header {
   background-color: #2f2f2f;
-  height: 200px;
-  line-height: 200px;
+  height: 100px;
+  line-height: 100px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
 }
 #header a {
   color: white;
@@ -42,6 +46,10 @@ sans-serif;
 #footer {
   background-color: #2f2f2f;
   padding: 50px 0;
+  height:150px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
 }
 .column {
   min-width: 300px;
