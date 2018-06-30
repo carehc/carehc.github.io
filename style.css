@@ -9,13 +9,13 @@ sans-serif;
 #header {
   background-color: #2f2f2f;
   height: 200px;
-  line-height: 150px;
+  line-height: 200px;
 }
 #header a {
   color: white;
   text-decoration: none;
   text-transform: lowercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
 }
 #header a:hover {
   color: #F6A623
@@ -51,7 +51,7 @@ sans-serif;
 #footer h4 {
   color: white;
   text-transform: lowercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
 }
 #footer p {
   color: white;
