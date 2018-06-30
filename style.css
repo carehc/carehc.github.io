@@ -14,7 +14,7 @@ sans-serif;
 #header a {
   color: white;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: 0.1em;
 }
 #header a:hover {
@@ -50,7 +50,7 @@ sans-serif;
 }
 #footer h4 {
   color: white;
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: 0.1em;
 }
 #footer p {
