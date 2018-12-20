@@ -3,8 +3,16 @@
    -->
 
 <!DOCTYPE html>
-<html>
- <html lang="de">
+<html lang="de">
+ <head>
+  <!-- <script type="text/javascript" src="js/redirection-mobile.js"></script><script type="text/javascript">// <![CDATA[
+ SA.redirection_mobile ({
+ mobile_url : "carehardcore.de/m/media.html",
+ tablet_redirection: "true",
+});
+
+// ]]></script> -->
+  <!-- <link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.carehardcore.de/m/media.html" /> -->
    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -22,15 +30,23 @@
    <meta name="msapplication-TileColor" content="#ffffff">
    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
    <meta name="theme-color" content="#ffffff">
-   <title>care.</title>
-   <link rel="stylesheet"
-type="text/css" href="style.css">
+   <link href="screen.css" rel="stylesheet" type="text/css" media="screen, projection" /> <!-- Hier sollte der Pfad zur CSS-datei eingetragen werden, die f�r die Bildschirmausgabe zust�ndig ist. Je nachdem in welchem Verzeichniss sich diese Datei befindet muss der Pfad angepasst werden. -->
+   <title>care. hardcore</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+  <!--  <meta name="viewport" content="width=device-width, initial-scale=0, shrink-to-fit=no"> -->
+    <meta name="description" content="care. ist eine 2018 gegr&uuml;ndete Hardcore Band aus Hannover, die es sich zum Ziel gesetzt hat, eine Art des Beachboy, Party, hardcore
+    zu etablieren." />
  </head>
  <body>
-   <div id="header">
+
+
+<div id="header">
     <div class="container">
-      <a id="header-title"
-      <a href="index.html"><u>care.</u></a>
+     <a id="header-title"
+     <a href="index.html"><u>care.</u></a>
+    <!--  <input type="checkbox" id="header-nav">
+      <label for="header-nav" class="responsive-nav-label"><span>&#9776;</span>men&uuml;</label> -->
       <ul id="header-nav">
         <li><a href="about.html"><u>&uuml;ber.</u></a></li>
         <li><a href="blog.html"><u>Blog.</u></a></li>
